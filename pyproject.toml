@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "esquite-api"
+version = "0.0.1"
+description = "Esquite API write with fastapi framework"
+authors = ["Elotl MX <contacto@elotl.mx>"]
+license = "MPL 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
